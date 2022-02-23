@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void
+main ()
+{
+  int i, j, k, l = 1, m, n;
+  printf
+    ("enter no rows (you know what its such a pian to write code for stupid things until it is a real project) :");
+  scanf ("%d", &n);
+  m = n + 4 - 1;
+  for (i = 1; i <= n; i++)
+    {printf("\n");
+      for (k = m; k >= 1; k--)
+	{
+	  printf (" ");
+	}
+      for (j = 1; j <= i; j++)
+	{
+
+
+	  printf ("%d ", l++);
+
+	}
+   m--; }
+}
